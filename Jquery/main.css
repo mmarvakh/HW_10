@@ -1,0 +1,17 @@
+.yellow{
+    color: yellow;
+    background-color: black;
+}
+.black{
+    color: black;
+    background-color: yellow;
+}
+.background{
+    background-color: turquoise;
+}
+.square{
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}

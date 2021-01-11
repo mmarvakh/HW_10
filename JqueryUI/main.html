@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>jQuery UI Accordion - Default functionality</title>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="/resources/demos/style.css">
+<link rel="stylesheet" href="main.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+$( function() {
+$( "#accordion" ).accordion();
+} );
+$( function() {
+$("#datepicker").datepicker({ monthNames:
+      ["Январь","Февраль","Март","Апрель","Май","Июнь","Июль","Август",  
+      "Сентябрь","Октябрь","Ноябрь","Декабрь"],
+      dayNamesMin: ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс"]});
+ } );
+</script>
+</head>
+<body>
+    <h1>Ссылка на github  - https://github.com/mmarvakh/HW_10</h1>
+<div id="accordion">
+<h3>Виджет Accordation</h3>
+<div>
+<p>
+    Виджет accordion представляет собой группу объединенных выпадающих меню из которых только одно может быть отрыто одновременно. Данный виджет используется для группировки информации на странице с целью экономии места. Данный виджет является очень популярным - его можно встретить на множестве сайтов, использующих Jquery.
+</p>
+</div>
+<h3>Латынь</h3>
+<div>
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+</div>
+<h3>Что такое jQuery</h3>
+<div>
+<p>
+    jQuery  — набор функций JavaScript, фокусирующийся на взаимодействии JavaScript и HTML. Библиотека jQuery помогает легко получать доступ к любому элементу DOM, обращаться к атрибутам и содержимому элементов DOM, манипулировать ими. Также библиотека jQuery предоставляет удобный API для работы с AJAX. Разработка jQuery ведётся командой добровольцев на пожертвования.
+</p>
+</div>
+<h3>jQuery UI это</h3>
+<div>
+<p>
+    jQuery UI — библиотека JavaScript с открытым исходным кодом для создания насыщенного пользовательского интерфейса в веб-приложениях, часть проекта jQuery. Построена поверх главной библиотеки jQuery и предоставляет разработчику упрощенный доступ к её функциям взаимодействия, анимации и эффектов, а также набор виджетов.
+</p>
+
+</div>
+</div>
+<br>
+Плагин на очень простой календарь: <input id="datepicker" type="text">
+
+</body>
+</html>
